@@ -1,0 +1,56 @@
+{
+  "name": "auction-platform-frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "React frontend for auction marketplace with real-time bidding",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext js,jsx",
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\""
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "@mercadopago/sdk-react": "^0.0.4",
+    "@tanstack/react-query": "^4.35.3",
+    "agora-rtc-sdk-ng": "^4.17.0",
+    "axios": "^1.5.0",
+    "chart.js": "^4.4.0",
+    "clsx": "^2.0.0",
+    "date-fns": "^2.30.0",
+    "framer-motion": "^10.16.0",
+    "react": "^18.2.0",
+    "react-avatar": "^5.0.3",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-helmet-async": "^2.0.4",
+    "react-hook-form": "^7.45.4",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.12.0",
+    "react-intersection-observer": "^9.5.3",
+    "react-modal": "^3.16.1",
+    "react-phone-input-2": "^2.15.1",
+    "react-router-dom": "^6.15.0",
+    "react-select": "^5.7.7",
+    "socket.io-client": "^4.6.1",
+    "swiper": "^10.2.0",
+    "zustand": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.49.0",
+    "eslint-plugin-react": "^7.33.2",
+    "postcss": "^8.4.29",
+    "prettier": "^3.0.3",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
